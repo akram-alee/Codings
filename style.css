@@ -47,3 +47,34 @@ p {
 li {
     font-size: 20px;
 }
+
+/* --- Mobile View ---*/
+
+@media screen and (max-width: 768px) {
+    .header-items img {
+        width: 200px;
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 20px 0px;
+        gap:0;
+    }
+    .header-items {
+        padding: 0px 20px;
+    }
+    .content-items {
+        padding: 20px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 17px;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+}
